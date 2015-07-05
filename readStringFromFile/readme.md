@@ -1,5 +1,11 @@
 #readStringFromFile Function
 
+The `readStringFromFile_noHeader.c` is an example which doesn't use, well headers. Mostly because I wrote this in Dev-C++ and I couldn't figure out how to. (Yes I know. I have VS.)
+
+The `readStringFromFile.c` and `readStringFromFile.h`, are there for you to use if you decide to use the header thing. But I might have missed something from either the .c or .h file. I'm not sure, I think it should work. Not sure. Sorry about that.
+
+***
+
 ##Description:
 >Takes in an input file and scans a collection of whitespace characters into a fixed character array.
 >Since it uses the FILE Pointer, it can be used at any point to extract words (or string of alpha
