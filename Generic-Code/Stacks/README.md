@@ -1,10 +1,12 @@
-# Generic Stack(s) In C99
+# Generic Stack(s) && Author Info
 
-I think its C99? I don't really know. 
+Code: Generic Stacks
+Author: VishalRamki
+CurrentVersion: 1.1
 
 Anyhow, yeah so this is a generic stack function/structure for you to make use of. Basically you can push any type of
 data, ints, doubles, chars etc. And pop it back out using a pointer. It behaves like a stack. It is a minimal version of
-a stack, no other features or stuff. Not sure what else you can add but sure.
+a stack, no other features or stuff. Not sure what else you can add but sure. 
 
 # Why?
 
@@ -31,3 +33,24 @@ double *tx = (double*)stackPop(&smallStack);
 int *y = stackPop(&smallStack);
 ```
 
+# Current Limitations:
+While any VAR can be placed on the stack, only 4 variables have 
+debug information assoicated with them. these are: INT, DOUBLE,
+CHAR and FLOAT.
+ 		
+The others will be added in time.
+ 		
+# TODO
+I haven't tested the stack with arrays. I would like to.
+ 
+# ChangeLog:
+
+[29.09.15]
+- Actually ended up doing nothing. Glory.
+[30.09.15]
+- Added a peekAtTop [getTop()] function to the stack.
+- Two typedef structs  created.
+  - TYPE_INFO - Holds the variable type information. (enum)
+ 	- Metadata - holds all related data for the element in the stack.
+- Added 3 new functions as well as an enumator to keep track of the type of variables stored with in the stack.
+  - getData(), printMeta(), printType()
