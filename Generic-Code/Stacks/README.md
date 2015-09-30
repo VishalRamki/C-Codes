@@ -49,6 +49,7 @@ I haven't tested the stack with arrays. I would like to.
 
 [29.09.15]
 - Actually ended up doing nothing. Glory.
+
 [30.09.15]
 - Added a peekAtTop [getTop()] function to the stack.
 - Two typedef structs  created.
