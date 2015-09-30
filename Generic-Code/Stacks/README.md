@@ -54,6 +54,6 @@ I haven't tested the stack with arrays. I would like to.
 - Added a peekAtTop [getTop()] function to the stack.
 - Two typedef structs  created.
   - TYPE_INFO - Holds the variable type information. (enum)
- 	- Metadata - holds all related data for the element in the stack.
+  - Metadata - holds all related data for the element in the stack.
 - Added 3 new functions as well as an enumator to keep track of the type of variables stored with in the stack.
   - getData(), printMeta(), printType()
