@@ -1,7 +1,9 @@
 # Generic Stack(s) && Author Info
 
 Code: Generic Stacks
+
 Author: VishalRamki
+
 CurrentVersion: 1.1
 
 Anyhow, yeah so this is a generic stack function/structure for you to make use of. Basically you can push any type of
