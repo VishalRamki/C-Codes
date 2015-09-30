@@ -152,6 +152,7 @@ Metadata *getData(element *ptrToElement) {
 void printMeta(Metadata *md) {
 	if (md == NULL) {
 		printf("Metadata is NULL. No Data can be printed.\n");
+		return;
 	}
 	
 	printf("Metadata located @%p\n", md);
